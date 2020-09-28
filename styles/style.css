@@ -1,0 +1,149 @@
+h1 {
+    font-family: 'Unica One', cursive;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: auto;
+    width: 70%;
+    background-color: #2d2d2d;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.box {
+    padding: 4px;
+    width: 70%;
+    margin: auto;
+}
+
+.background1 {
+    background-color: #f3f3f3;
+    background-position: bottom;
+}
+
+div.text {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Slabo 27px';
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.wrapper>div {
+    background: #e56f80;
+    padding: 5px;
+}
+
+.wrapper>div:nth-child(odd) {
+    background: #6d6d6d;
+    padding: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    justify-items: stretch;
+    align-items: start;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: stretch;
+    font-weight: bold;
+    font-size-adjust: auto;
+}
+
+a {
+    color: #ffffff;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1/2;
+    border-color: #2d2d2d;
+    border-style: solid;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 1/2;
+    border-color: #2d2d2d;
+    border-style: solid;
+}
+
+.box3 {
+    grid-column: 3;
+    grid-row: 1/2;
+    border-color: #2d2d2d;
+    border-style: solid;
+}
+
+.box4 {
+    grid-column: 1;
+    grid-row: 2/3;
+    border-color: #2d2d2d;
+    border-style: solid;
+}
+
+.box5 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    border-color: #2d2d2d;
+    border-style: solid;
+}
+
+Body {
+    background-color: #ececec;
+    text-align: center;
+    font-family: 'monospace', sans-serif;
+    list-style: none;
+}
+
+.protest {
+    border-style: solid;
+    border-color: #e56f80;
+    border-width: medium;
+}
+
+.letter::first-letter {
+    -webkit-initial-letter: 3.5;
+    initial-letter: 3.5;
+    background: white;
+    border: 3px solid #e56f80;
+    color: black;
+    font-weight: bold;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+figure {
+    align-content: center;
+    text-align: center;
+}
+
+figcaption {
+    color: #4B4C4C;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #e56f80;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: medium;
+    font-family: 'monospace'sans-serif;
+    background-size: contain;
+    width: 70%;
+    padding: 2px;
+    margin: auto;
+}
